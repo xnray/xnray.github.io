@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>potato机器人使用webhook https</title>
+      <link>https://xnray.github.io/post/work/webhooktls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xnray.github.io/post/work/webhooktls/</guid>
+      <description>potato机器人webhook 使用https简易教程 步骤 生成自签名证书 使用openssl  生成私钥 openssl genrsa -out private.key 2048 生成公钥 openssl req -new -x509 -key private.key -out public.crt -days 3650 注意生成公钥的时候有选项设置，其他的可以不填，Common Name (e.g. server FQDN or YOUR name) 这一项必须填写自己机器人服务的域名,不支持ip 完成后得到 public.crt 和 private.key 密钥对  上传公钥到potato  将公钥拖进自己的机器人聊天窗口 使用 https://api.sydney.im/&amp;lt;bot_token&amp;gt;/getUpdates 得到公钥的 file_id  机器人编码  使用 https://api.sydney.im/&amp;lt;bot_token&amp;gt;/setWebhook 接口设置webhook，参数如下，certificate为公钥的file_id  { &amp;quot;url&amp;quot;: &amp;quot;https://mydomain:port/router&amp;quot;, &amp;quot;certificate&amp;quot;: &amp;quot;00050000321djau921030213&amp;quot; }  go 语言例子主要代码  func IndexHandler(w http.ResponseWriter, r *http.Request) { bytes, _ := ioutil.</description>
+    </item>
+    
+    <item>
       <title>将hugo生成的页面托管到github pages</title>
       <link>https://xnray.github.io/post/work/work1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
