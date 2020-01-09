@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://xnray.github.io/post/sixyao/liuqin/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xnray.github.io/post/sixyao/dizhi/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://xnray.github.io/post/work/webhooktls/</loc>
   </url>
   
@@ -11,7 +21,23 @@
   </url>
   
   <url>
-    <loc>https://xnray.github.io/post/work/work1/</loc>
+    <loc>https://xnray.github.io/categories/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xnray.github.io/post/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xnray.github.io/categories/sixyao/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xnray.github.io/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -24,23 +50,11 @@
   </url>
   
   <url>
-    <loc>https://xnray.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://xnray.github.io/post/</loc>
-  </url>
-  
-  <url>
     <loc>https://xnray.github.io/tags/</loc>
   </url>
   
   <url>
     <loc>https://xnray.github.io/categories/web/</loc>
-  </url>
-  
-  <url>
-    <loc>https://xnray.github.io/</loc>
   </url>
   
 </urlset>
